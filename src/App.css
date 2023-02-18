@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #282A3A;
+  color: rgb(231, 237, 241);
+}
+.app-container{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: space-between;
+}
+.left-area{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  text-align:center;
+}
+.code-area{
+  height: 28%;
+  resize: none;
+  outline: none;
+  border: none;
+  background-color: #15161b;
+  color: aliceblue;
+  padding: 20px;
+}
+.right-area{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+#output{
+  height:93%;
+  border: none;
+  background-color: #fff;
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+}
+button{
+  width: 25%;
+  margin-block-end: 10px;
+  align-self: center;
+  padding: 10px;
+  background-color: rgb(56, 247, 183);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: medium;
+}
+.buttons{
+  display: flex;
+}
+.html{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0c0d0f;
+  margin-top: 5px;
+}
+.red, .yellow, .green{
+  width: 12px;
+  height: 12px;
+  
+  margin-inline: 3px;
+  border-radius: 50%;
+}
+.red{
+  background-color: rgb(224, 30, 30);
+}
+.yellow{
+  background-color: rgb(214, 194, 11);
+}
+.green{
+  background-color: rgb(85, 224, 30);
+}
